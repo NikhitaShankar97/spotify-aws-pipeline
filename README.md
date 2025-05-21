@@ -6,6 +6,9 @@ This project is an end-to-end automated AWS-native data pipeline that ingests, p
 ## 📌 Motivation
 As part of my Big Data Infrastructure course at the University of Illinois Urbana-Champaign, I wanted to deeply explore how enterprise-grade machine learning systems are built. I challenged myself to design a pipeline that uses **all key AWS services** — from ingestion to orchestration, modeling, storage, and visualization — with a focus on reliability, modularity, and learning how each AWS component fits into a production analytics system.
 
+## Dataset
+This project uses the [Spotify Million Playlist Dataset](https://www.aicrowd.com/challenges/spotify-million-playlist-dataset-challenge) provided by AIcrowd and Spotify for the RecSys Challenge. The dataset contains one million user-generated playlists and metadata, which serves as the foundation for building predictive and personalized recommendation systems.
+
 ## 🛠️ Technologies Used
 - **Amazon S3** – Raw and processed storage (JSON & Parquet)
 - **AWS Glue + PySpark** – Serverless ETL & schema transformation
